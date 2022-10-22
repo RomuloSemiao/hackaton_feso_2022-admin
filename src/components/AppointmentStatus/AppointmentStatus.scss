@@ -1,0 +1,41 @@
+.AppointmentStatus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 510px;
+    width: 100%;
+    height: 70px;
+    padding: 17px 5px;
+    column-gap: 124px;
+    border-radius: 8px;
+
+
+    &--danger {
+       background: #FF3D3D;
+    }
+
+    &--warning {
+        background: #F4B036;
+        ;
+    }
+
+    &--good {
+        background: #7AB317;
+    }
+
+    &_pacientBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    &_pacientName,
+    &_text {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #fff;
+    }
+}

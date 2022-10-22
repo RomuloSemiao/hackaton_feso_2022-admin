@@ -17,10 +17,10 @@ const Header = () => {
                         <Link className="Header_link" to="/home">Home</Link>
                     </li>
                     <li className="Header_list-item">
-                        <Link className="Header_link" to="/make-appointment">Marcar Consulta</Link>
+                        <Link className="Header_link" to="/home/patient">Pacientes</Link>
                     </li>
                     <li className="Header_list-item">
-                        <Link className="Header_link" to="/fast-appointment">Consulta Rápida</Link>
+                        <Link className="Header_link" to="/home/historic">Histórico</Link>
                     </li>
                 </ul>
             </nav>
