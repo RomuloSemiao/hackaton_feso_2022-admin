@@ -23,14 +23,14 @@
         background: #7AB317;
     }
 
-    &_pacientBox {
+    &_patientBox {
         display: flex;
         justify-content: center;
         align-items: center;
         column-gap: 15px;
     }
 
-    &_pacientName,
+    &_patientName,
     &_text {
         font-family: "Inter", sans-serif;
         font-size: 16px;
