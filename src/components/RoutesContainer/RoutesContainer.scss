@@ -1,3 +1,7 @@
 .RoutesContainer {
   min-height: calc(100vh - 128px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
