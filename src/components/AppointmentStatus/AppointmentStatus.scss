@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 510px;
+    max-width: 500px;
     width: 100%;
     height: 70px;
-    padding: 17px 5px;
+    padding: 16px 12px;
     column-gap: 124px;
     border-radius: 8px;
+    cursor: pointer;
 
 
     &--danger {
